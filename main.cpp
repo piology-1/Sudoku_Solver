@@ -1,9 +1,10 @@
 #include <iostream>
 
-#include "src/Game.h"
+#include "include/Game.h"
 
 int main()
 {
+
     Game game;
     game.run();
 

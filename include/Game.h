@@ -1,12 +1,13 @@
 #ifndef Game_H
 #define Game_H
 
-#include "constants.h"
-#include "Board.h"
-#include "Solver.h"
 #include <iostream>
 #include <vector>
 #include <cstdlib> // For clear screen
+
+#include "constants.h"
+#include "Board.h"
+#include "Solver.h"
 
 class Game
 {

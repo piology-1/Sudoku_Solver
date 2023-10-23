@@ -1,16 +1,15 @@
 #ifndef SOLVER_H
 #define SOLVER_H
 
-#include "constants.h"
-#include "Board.h"
 #include <iostream>
 #include <tuple>
 #include <vector>
 #include <chrono>
 #include <thread>
+#include <windows.h> // Library effective with Windows
 
-// Library effective with Windows
-#include <windows.h>
+#include "constants.h"
+#include "Board.h"
 
 #define ALL_CELLS_FILLED std::make_tuple(-1, -1) // there are no empty cells/ fields left
 

@@ -1,11 +1,12 @@
 #ifndef Board_H
 #define Board_H
 
-#include "constants.h"
 #include <iostream>
 #include <vector>
 #include <cmath> // Include the <cmath> header for the sqrt function
 #include <unordered_set>
+
+#include "constants.h"
 
 class Board
 // class representing the Board

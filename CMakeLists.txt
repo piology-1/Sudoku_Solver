@@ -5,15 +5,16 @@ project(SudokuSolver)
 # Set the C++ standard to C++11 or higher
 set(CMAKE_CXX_STANDARD 11)
 
-# Add the source files
-file(GLOB SOURCES "src/*.cpp")
+# Find and add all header and source files using GLOB
+file(GLOB HEADER_FILES "include/*.h")
+file(GLOB SOURCE_FILES "src/*.cpp")
 
 # Add an executable for the main program
-add_executable(SudokuSolver ${SOURCES} main.cpp)
+add_executable(SudokuSolver ${SOURCE_FILES} main.cpp)
 
-# Include headers from the 'src' directory
-target_include_directories(SudokuSolver PRIVATE src)
+# Include directories for the target
+target_include_directories(SudokuSolver PUBLIC include)
 
-# Optionally, if you have tests
-# enable_testing()
-# add_subdirectory(test)
+
+# Install the executable to a specified directory
+install(TARGETS SudokuSolver DESTINATION bin)

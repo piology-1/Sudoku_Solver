@@ -1,4 +1,4 @@
-#include "Solver.h"
+#include "../include/Solver.h"
 
 Solver::Solver()
 {
