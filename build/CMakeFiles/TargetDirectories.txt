@@ -1,3 +1,0 @@
-C:/Users/piusg/OneDrive/Programming/C_C++_projects/Sudoku_Solver_logic/build/CMakeFiles/SudokuSolver.dir
-C:/Users/piusg/OneDrive/Programming/C_C++_projects/Sudoku_Solver_logic/build/CMakeFiles/edit_cache.dir
-C:/Users/piusg/OneDrive/Programming/C_C++_projects/Sudoku_Solver_logic/build/CMakeFiles/rebuild_cache.dir
